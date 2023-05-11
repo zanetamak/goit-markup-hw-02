@@ -5,20 +5,48 @@
 }
 
 :root {
+   --main-background: #FFFFFF;
    --focus-color: #2196F3;
    --second-line-color: #757575;
+   --button-background: #F5F4FA;
 }
 
 .logo {
-   color: var(--focus-color);
-   text-decoration: inherit;
+color: var(--focus-color);
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
 }
 
+.logo-header {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+color: #000000;
+}
+
+.logo-footer {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+ color: var(--main-background)  
+}
+
+a:link {
+text-decoration: none;
+}
+
+.main-background {
+   background: var(--main-background)
+}
 .first-line {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
-letter-spacing: 0.02em;
+color: #212121;
 text-decoration: inherit;
 }
 
@@ -42,9 +70,10 @@ text-decoration: inherit;
 
 .buttons-portfolio {
    cursor: pointer;
+   background: var(--button-background);
 }
 .buttons-portfolio:hover {
-   color: #FFFFFF;
+   color: var(--main-background);
    background: var(--focus-color);
 }
 
@@ -58,7 +87,6 @@ text-decoration: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
-letter-spacing: 0.03em;
 }
 
 .last {
@@ -70,16 +98,26 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
-letter-spacing: 0.03em;
 text-decoration: inherit;
 color: rgba(255, 255, 255, 0.6);
 }
 
-.ul.last:nth-child(1) {
-   color: #FFFFFF
-}
-
 .last-line:hover, 
 .last-line:focus {
-   color: var(--focus-color)
+color: var(--focus-color)
 }
+
+.last-line-adress {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+text-decoration: inherit;
+color: var(--main-background);
+
+}
+
+.last-line-adress:hover,
+.last-line:focus {
+color: var(--focus-color)
+   }
