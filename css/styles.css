@@ -1,16 +1,14 @@
-.body {
-   font-family: 'Roboto';
-   color: #212121;
-   background-color: #E5E5E5;
-}
-
 :root {
-   --main-background: #FFFFFF;
-   --focus-color: #2196F3;
-   --second-line-color: #757575;
-   --button-background: #F5F4FA;
+   --main-background: rgba(255,255,255, 1);
+   --focus-color: rgba(33, 150, 243, 1);
+   --second-line-color: rgba(117, 117, 117, 1);
+   --button-background: rgba(229, 229, 229,1)
 }
 
+.body {
+   font-family: 'Roboto', sans-serif;
+   color: rgba(33, 33, 33, 1)
+}
 .logo {
 color: var(--focus-color);
 font-family: 'Raleway';
@@ -87,6 +85,8 @@ text-decoration: inherit;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
+color: var(--second-line-color)
+
 }
 
 .last {
