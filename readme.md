@@ -1,1 +1,1 @@
-https://zanetamak.github.io/goit-markup-hw-02/
+https://.zanetamak.github.io/goit-markup-hw-02/
