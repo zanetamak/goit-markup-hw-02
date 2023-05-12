@@ -2,7 +2,8 @@
    --main-background: rgba(255,255,255, 1);
    --focus-color: rgba(33, 150, 243, 1);
    --second-line-color: rgba(117, 117, 117, 1);
-   --button-background: rgba(229, 229, 229,1)
+   --button-background: rgba(229, 229, 229, 1);
+   --footer-color:  rgba(47, 48, 58, 1);
 }
 
 .body {
@@ -30,7 +31,7 @@ font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
- color: var(--main-background)  
+color: var(--main-background)  
 }
 
 a:link {
@@ -40,6 +41,7 @@ text-decoration: none;
 .main-background {
    background: var(--main-background)
 }
+
 .first-line {
 font-weight: 500;
 font-size: 14px;
@@ -66,10 +68,35 @@ text-decoration: inherit;
    color: var(--focus-color)
 }
 
+.h1-background {
+   background: var(--footer-color);
+}
+
+.h1-webstudio {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.4;
+   color: var(--main-background);
+}
+
+.button-webstudio {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+cursor: pointer;
+background: var(--button-background); 
+}
+
+.button-webstudio:hover {
+   color: var(--main-background);
+   background: var(--focus-color);
+}
+
 .buttons-portfolio {
    cursor: pointer;
-   background: var(--button-background);
+   background: var(--button-background); 
 }
+
 .buttons-portfolio:hover {
    color: var(--main-background);
    background: var(--focus-color);
@@ -77,11 +104,30 @@ text-decoration: inherit;
 
 .h2 {
    font-weight: 700;
+   font-size: 36px;
+   line-height: 1.2;
+}
+
+.h3 {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.4;
+   color: rgba(33, 33, 33, 1)
+}
+
+.h4 {
+   font-weight: 700;
    font-size: 18px;
    line-height: 2.0;
 }
 
-.p {
+.paragraph-index {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;   
+color: var(--second-line-color)}
+
+.paragraph-portfolio {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
@@ -89,8 +135,11 @@ color: var(--second-line-color)
 
 }
 
+.team {
+   background: rgba(245, 244, 250, 1);
+}
 .last {
-   background-color: #2F303A;;
+background: var(--footer-color);
 }
 
 .last-line {
@@ -114,10 +163,9 @@ font-size: 14px;
 line-height: 1.7;
 text-decoration: inherit;
 color: var(--main-background);
-
 }
 
 .last-line-adress:hover,
 .last-line:focus {
-color: var(--focus-color)
+color: var(--focus-color);
    }
